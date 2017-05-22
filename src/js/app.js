@@ -1,8 +1,7 @@
 require("../stylesheets/style.scss");
-
 var d3 = require("d3");
-console.log(d3 == undefined);
 
+import Bootstrap from 'bootstrap/dist/css/bootstrap.css';
 
 var sampleSVG = d3.select("#viz")
     .append("svg")
